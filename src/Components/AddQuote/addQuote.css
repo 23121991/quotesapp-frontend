@@ -1,9 +1,19 @@
 .addQuote-container{
     width: 60%;
     margin: 1em auto;
+    background-image: url('https://thumbs.dreamstime.com/b/grey-textured-plain-background-wallpaper-grey-textured-plain-background-wallpaper-design-use-text-image-137515233.jpg');
 
 }
 
 form{
     margin-top: 3em;
+}
+.addQuote-container>h2{
+    font-family:'Times New Roman', Times, serif;
+    color:wheat;
+}
+.addQuote-label{
+    font-size: larger;
+    color: rgb(99, 52, 96);
+    font-family: 'Times New Roman', Times, serif;
 }

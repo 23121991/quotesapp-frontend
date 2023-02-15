@@ -34,11 +34,11 @@ console.log('Error while adding Quote:',error);
             <h2>Add a Quote</h2>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
-                    <label>Quote</label>
+                    <label className="addQuote-label">Quote</label>
                     <input className="form-control" id='quote' type='text' placeholder="Enter a quote." value={quoteData.quote} onChange={(e) => handleQuoteData({ quote: e.target.value })} />
                 </div>
                 <div className="form-group">
-                    <label>Author</label>
+                    <label className="addQuote-label">Author</label>
                     <input className="form-control" id='quote' type='text' placeholder="Enter name of the author." value={quoteData.author} onChange={(e) => handleQuoteData({ author: e.target.value })} />
                 </div>
                 <div className="form-group mt-3">

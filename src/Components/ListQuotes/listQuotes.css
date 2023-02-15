@@ -1,9 +1,10 @@
 .listQuotes{
     margin: 1em 2em;
-    border: 1px solid skyblue;
+    border: 1px solid rgb(225, 167, 86);
     border-radius: 20px;
     height: 75vh;
     overflow-y: scroll;
+    background-image: url('https://i.pinimg.com/736x/96/71/7c/96717c48839dbb6541fde122355d427b.jpg');
 }
 
 .quotes-container{
@@ -12,12 +13,13 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
+    background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-award-ceremony-black-gold-style-background-material-picture-image_978546.jpg');
 }
 
 .quote{
     width: fit-content;
     padding: 1em 3em;
-    border: 1px solid rgb(20, 111, 118);
+    border: 1px solid rgb(76, 187, 218);
     border-radius: 10px;
-    background-color: aliceblue;
+    background-image: url('https://media.istockphoto.com/id/1336522605/photo/white-cloud-sky-on-yellow-background-with-copy-space-banner-design-template-landing-page.jpg?s=170667a&w=0&k=20&c=TNeI4rx7lGLScyUpLINBmLh0XmPje9u0KsjIAgPtbCs=');
 }
